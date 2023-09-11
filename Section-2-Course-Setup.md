@@ -19,3 +19,33 @@ Notes for Windows 10 and PowerShell.
 - [code.visualstudio.com](https://code.visualstudio.com/)
 - Extensions: Python, Pylance
 - [Shift]+[Alt]+[F] Format document
+
+## 12. Analyzing the Created Project
+
+- manage.py: CLI tools, e.g. creating database
+- \_\_init__.py: Python module
+- asgi.py & wsgi.py: Deploy
+- settings.py & urls.py: Important
+
+## 13. Starting Development Server
+
+- `python manage.py runserver` → [localhost:8000](http://localhost:8000/)
+
+## 14. Django Apps
+
+- Modules are called Apps
+- `python manage.py startapp challenges`
+
+## 15. Analyzing the App
+
+- apps.py: e.g. name
+- views.py: Important
+
+## 16. More Advanced Setup Steps
+
+- Virtual environments: https://docs.python.org/3/tutorial/venv.html
+- .vscode/settings.json file
+
+		{
+		"python.languageServer": "Pylance",
+		}
