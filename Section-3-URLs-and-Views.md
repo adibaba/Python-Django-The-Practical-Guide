@@ -25,3 +25,7 @@
 
 - `python manage.py runserver`
 - [http://localhost:8000/challenges/january](http://localhost:8000/challenges/january)
+
+## 27. Reverse Function & Named URLs
+
+- https://docs.djangoproject.com/en/4.2/ref/urlresolvers/

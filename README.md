@@ -9,4 +9,6 @@
 
 - [Section 2: Course Setup](Section-2-Course-Setup.md)
 - [Section 3: URLs and Views](Section-3-URLs-and-Views.md)
+- [Section 4: Templates](Section-4-Templates.md)
+- [Summary](Summary.md)
 
