@@ -60,6 +60,9 @@ TEMPLATES = [
             # 33. Adding & Registering Templates
             # https://docs.python.org/3/library/pathlib.html
             # BASE_DIR / 'challenges' / 'templates'
+
+            # 42. Template Inheritance
+            BASE_DIR / 'templates'
         ],
         'APP_DIRS': True,
         'OPTIONS': {

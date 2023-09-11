@@ -16,16 +16,20 @@ monthly_challenges = {
     'september': 'Do it!',
     'october': 'Do it!',
     'november': 'Do it!',
-    'december': 'Do it!'
+    'december': None
 }
 
 
 def index(request):
-    list_items = ''
-    for month in monthly_challenges.keys():
-        month_path = reverse('month-challenge', args=[month])
-        list_items += f'<li><a href="{month_path}">{month.capitalize()}</a></li>'
-    return HttpResponse(f'<ul>{list_items}</ul>')
+    # list_items = ''
+    # for month in monthly_challenges.keys():
+    #     month_path = reverse('month-challenge', args=[month])
+    #     list_items += f'<li><a href="{month_path}">{month.capitalize()}</a></li>'
+    # return HttpResponse(f'<ul>{list_items}</ul>')
+
+    # 39. Tags & For Tag
+    months = list(monthly_challenges.keys())
+    return render(request, 'challenges/index.html', {'months': months})
 
 
 def monthly_challenge_by_number(request, month):

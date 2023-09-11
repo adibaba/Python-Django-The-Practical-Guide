@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+<!-- 42. Template Inheritance -->
+
+    {% block page_title %}All Challenges{% endblock %}
+
+    {% block content %}
+    <!-- 44. Including Partial Template Snippets -->
+    {% include 'challenges/includes/header.html' %}
+
+    <ul>
+        <!-- 39. Tags & For Tag -->
+        <!-- 40. URL Tag -->
+        {% for month in months %}
+        <li><a href="{% url 'month-challenge' month %}">{{month|title}}</a></li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
+    

@@ -8,10 +8,22 @@
 </head>
 
 <body>
+
+    {% block content %}
+        <!-- 44. Including Partial Template Snippets -->
+        {% include 'challenges/includes/header.html' %}
+    {% endblock content %}
+
+    <ul>
     <!-- 37. Filters -->
+    <!-- 41. If Tag -->
     <!-- https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#built-in-filter-reference -->
     <h1>{{ month_name|title }} Challenge</h1>
+    {% if text %}
     <h2>{{ text }}</h2>
+    {% else %}
+    <h2>No challenge.</h2>
+    {% endif %}
 </body>
 
 </html>
