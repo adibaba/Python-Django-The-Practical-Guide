@@ -1,5 +1,7 @@
 # Section 2: Course Setup
 
+- [code](00200_mypage)
+
 ## 9. Installing Python & Django
 
 Notes for Windows 10 and PowerShell.

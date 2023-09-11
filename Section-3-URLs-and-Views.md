@@ -1,5 +1,8 @@
 # Section 3: URLs and Views
 
+- [code](00300_monthly_challenges)
+- [code official](https://github.com/academind/django-practical-guide-course-code/tree/urls-views-07-practicing-urls-and-views)
+
 ## 18. Module Introduction
 
 - URLs (Routes)
