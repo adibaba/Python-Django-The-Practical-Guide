@@ -8,7 +8,7 @@
 ## 33. Module Introduction
 
 - https://docs.python.org/3/library/pathlib.html
-- 
+
 ## 35. Template Language
 
 - DTL: Django Template Language
