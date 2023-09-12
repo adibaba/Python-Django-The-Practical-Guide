@@ -24,8 +24,10 @@ SECRET_KEY = 'django-insecure-u967f^36z*u&+h+^k(89uz7(oh-^17ol=6djsz1c^8jv3_+yym
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+#DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [] 
+#ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]'] 
 
 
 # Application definition
@@ -36,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', # required for 47. Static files
     # 33. Adding & Registering Templates
     'challenges'
 ]
@@ -125,6 +127,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# 48. Global Static files: Added line
+STATICFILES_DIRS = [ BASE_DIR / 'static/']
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

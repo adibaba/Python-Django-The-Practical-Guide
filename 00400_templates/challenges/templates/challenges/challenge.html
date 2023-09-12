@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
+{% load static %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ month_name|capfirst }} Challenge</title>
-</head>
-
-<body>
+{% block css_files %}
+<!-- 47. Static files -->
+<link rel="stylesheet" href="{% static 'challenges/challenge.css' %}">
+<link rel="stylesheet" href="{% static "challenges/includes/header.css" %}">
+{% endblock %}
 
     {% block content %}
         <!-- 44. Including Partial Template Snippets -->
         {% include 'challenges/includes/header.html' %}
-    {% endblock content %}
 
-    <ul>
     <!-- 37. Filters -->
     <!-- 41. If Tag -->
     <!-- https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#built-in-filter-reference -->
@@ -22,8 +18,6 @@
     {% if text %}
     <h2>{{ text }}</h2>
     {% else %}
-    <h2>No challenge.</h2>
+    <p class="fallback">No challenge.</p>
     {% endif %}
-</body>
-
-</html>
+    {% endblock %}
