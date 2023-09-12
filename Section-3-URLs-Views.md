@@ -74,5 +74,3 @@
 ### 30. Summary
 
 ### 31. Useful Resources & Links
-
-## Code
