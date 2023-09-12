@@ -1,4 +1,4 @@
-1
+Section 1: Getting Started
 
 1. Introduction
 2. What is Django?
@@ -8,7 +8,7 @@
 6. Getting the Most out of the Course
 7. Choose Your Course Path!
 
-2
+Section 2: Course Setup
 
 8. Module Introduction
 9. Installing Python & Django
@@ -21,7 +21,7 @@
 16. More Advanced Setup Steps
 17. Useful Resources & Links
 
-3
+Section 3: URLs & Views
 
 18. Module Introduction
 19. Creating a New Project
@@ -38,7 +38,7 @@
 30. Summary
 31. Useful Resources & Links
 
-4
+Section 4: Templates & Static Files
 
 32. Module Introduction
 33. Adding & Registering Templates
@@ -62,7 +62,7 @@
 51. Summary
 52. Useful Resources & Links
 
-5
+Section 5: Course Project: Building a Blog - The Basics
 
 53. Module Introduction
 54. Setting Up the Starting Project
@@ -80,7 +80,7 @@
 66. Adding a 404 Page
 67. Useful Resources & Links
 
-6
+Section 6: Data & Models
 
 68. Module Introduction
 69. Different Kinds of Data
@@ -110,7 +110,7 @@
 93. Summary
 94. Useful Resources & Links
 
-7
+Section 7: Admin
 
 95. Module Introduction
 96. Logging Data Into the Admin Panel
@@ -120,7 +120,7 @@
 100. More Config Options
 101. Useful Resources & Links
 
-8
+Section 8: Relationships
 
 102. Module Introduction
 103. Understanding Relationship Types
@@ -138,7 +138,7 @@
 115. Summary
 116. Useful Resources & Links
 
-9
+Section 9: Course Project - Building a Blog: Data & Models
 
 117. Module Introduction
 118. Planning the Data Models
@@ -155,7 +155,7 @@
 129. Summary
 130. Useful Resources & Links
 
-10
+Section 10: Forms
 
 131. Module Introduction
 132. Starting Setup
@@ -178,7 +178,7 @@
 149. Summary
 150. Useful Resources & Links
 
-11
+Section 11: Class Views
 
 151. Module Introduction
 152. Adding Templates
@@ -192,7 +192,7 @@
 160. CreateView
 161. Useful Resources & Links
 
-12
+Section 12: File Uploads
 
 162. Module Introduction
 163. Starting Setup
@@ -207,7 +207,7 @@
 172. Summary
 173. Useful Resources & Links
 
-13
+Section 13: Sessions
 
 174. Module Introduction
 175. Problem Description
@@ -221,7 +221,7 @@
 183. Summary
 184. Useful Resources & Links
 
-14
+Section 14: Course Project: Building a Blog - Forms, Files & Sessions
 
 185. Module Introduction
 186. Adding an Imagefield to the Post Model
@@ -241,7 +241,7 @@
 200. Finishing the Read Later Feature
 201. Useful Resources & Links
 
-15
+Section 15: Deployment
 
 202. Module Introduction
 203. Deployment Considerations
@@ -265,7 +265,7 @@
 221. Summary
 222. Useful Resources & Links
 
-16
+Section 16: Optional: Django Summary & Quick Introduction
 
 223. Module Introduction
 224. What & Why?
@@ -300,7 +300,7 @@
 253. Wrap Up
 254. Useful Resources & Links
 
-17
+Section 17: Bonus
 
 255. Course Roundup
 256. Bonus!
