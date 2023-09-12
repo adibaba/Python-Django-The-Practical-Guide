@@ -29,7 +29,7 @@ for line in open('003-hashes.txt', 'r').readlines():
         # compare links
         print('- [Changes]' + '(' + url_prefix + last_commit + '..' + commit + ') and')
         print('  [Code]' + '(' + url_prefix_branch + remote + ')')
-        print('  for ' + remote + ')')
+        print('  for ' + remote)
         
         last_commit = commit
         commit = ''
