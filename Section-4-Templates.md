@@ -1,7 +1,6 @@
 # Section 4: Templates
 
 - [code](00400_templates)
-- [code official](https://github.com/academind/django-practical-guide-course-code/tree/templates-13-adding-css-styling)
 - https://docs.djangoproject.com/en/4.2/ref/templates/
 - https://docs.djangoproject.com/en/4.2/topics/templates/
 
