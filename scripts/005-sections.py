@@ -17,9 +17,13 @@ for line in open('005-sections.txt', 'r').readlines():
         filename = re.sub(r"\s\s+", " ", filename)
         filename = re.sub(r"\s", "-", filename)
         filename = filename + '.md'
+        print('## Code')
+        print('')
         print('')
         print(filename)
         print('# ' + line)
+        print('')
+        print('## Lectures')
     else:
-        print('## ' + line)
+        print('### ' + line)
     print('')
