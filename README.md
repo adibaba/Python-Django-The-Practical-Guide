@@ -15,3 +15,14 @@ git add *
 git commit -m "new branch"
 git push --set-upstream origin $BRANCH
 ```
+
+#### Create project
+
+ ```sh
+python -m django startproject project
+
+# edited this file
+git add *
+git commit -m "new project"
+git push
+```
