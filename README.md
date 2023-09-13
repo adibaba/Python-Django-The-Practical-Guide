@@ -1,6 +1,11 @@
 # Python Django - The Practical Guide
 
-This repository contains personal learning resources related to the course *Django - The Practical Guide*.
+This repository contains personal learning resources related to the course *Django - The Practical Guide* by Maximilian Schwarzmüller.
+Features of this repository are:
+
+- Course notes for single lectures
+- Links to code changes between single lectures (really helpful!)
+- Links to related code repositories, slides and the Django documentation
 
 ## Course notes
 
@@ -15,11 +20,13 @@ This repository contains personal learning resources related to the course *Djan
 
 ## Learning resources
 
-- [Readme of this repository](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/main#readme)
-- Django documentation
+- Django Documentation
 	- [Django documentation contents](https://docs.djangoproject.com/en/4.2/contents/)
-	- [Built-in template tags and filters](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/)
+	- [API Reference](https://docs.djangoproject.com/en/4.2/ref/)
 - Code on GitHub
 	- [Related code repository with slides from course](https://github.com/adibaba/django-practical-guide-course-code) (forked from [academind](https://github.com/academind/django-practical-guide-course-code))
-	- [Related code branches](https://github.com/adibaba/django-practical-guide-course-code/branches/all)
-- [Course on Udemy](https://udemy.com/course/python-django-the-practical-guide/)
+	- [Branches of the related code repository](https://github.com/adibaba/django-practical-guide-course-code/branches/all)
+	- [Course notes](https://github.com/adibaba/Python-Django-The-Practical-Guide#readme) (you are here)
+- Course and Community
+	- [Udemy Course: Django - The Practical Guide](https://udemy.com/course/python-django-the-practical-guide/)
+	- [Academind Community on Discord](https://academind.com/community/)
