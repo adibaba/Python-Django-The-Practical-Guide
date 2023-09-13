@@ -74,3 +74,5 @@
 ### 30. Summary
 
 ### 31. Useful Resources & Links
+
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/urls-views-zz-extra-files/slides/slides.pdf)

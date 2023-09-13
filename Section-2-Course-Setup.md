@@ -55,3 +55,5 @@ Notes for Windows 10 and PowerShell.
 		}
 
 ### 17. Useful Resources & Links
+
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/setup-zz-extra-files/slides/slides.pdf)

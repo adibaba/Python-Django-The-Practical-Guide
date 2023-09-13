@@ -101,3 +101,5 @@
 ### 51. Summary
 
 ### 52. Useful Resources & Links
+
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/templates-zz-extra-files/slides/slides.pdf)
