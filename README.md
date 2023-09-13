@@ -26,3 +26,16 @@ git add *
 git commit -m "new project"
 git push
 ```
+
+#### Create app
+
+ ```sh
+cd project
+python manage.py startapp app
+cd ..
+
+# edited this file
+git add *
+git commit -m "new app"
+git push
+```
