@@ -1,5 +1,79 @@
 # Section 3: URLs & Views
 
+## Summary
+
+### Hello world
+
+[Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e937b..cbe01bf) and
+[Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/cbe01bff248a4a9f1370b7291b26f18293cbdfe9/project)
+
+```python
+# project/project/urls.py
+
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('app.urls')),
+]
+```
+
+```python
+# project/app/urls.py
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index')
+]
+```
+
+```python
+# project/app/views.py
+
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse('hello world')
+]
+```
+
+### Multiple paths
+
+[Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/cbe01bf..bf347f6) and
+[Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/bf347f6ce83d19a654fc2cdbeff1d569d73d8db4/project)
+
+```python
+# project/app/urls.py
+
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('echo/<str:string>', views.echo, name='echo'),
+]
+```
+
+```python
+# project/app/views.py
+
+from django.http import HttpResponse, HttpResponseRedirect
+from django.urls import reverse
+
+def index(request):
+    return HttpResponse('hello world')
+
+def echo(request, string):
+    if string == 'hello':
+        return HttpResponseRedirect(reverse('echo', args=['world']))
+    else:
+        return HttpResponse(f'<b>{string}</b>')
+```
+
+
 ## Lectures
 
 ### 18. Module Introduction
