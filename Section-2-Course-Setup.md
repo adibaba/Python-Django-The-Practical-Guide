@@ -21,7 +21,7 @@ Notes for Windows 10 and PowerShell.
 ### 11. Installing an IDE
 
 - [code.visualstudio.com](https://code.visualstudio.com/)
-- Extensions: Python, Pylance
+- Extensions: Python (will automatically install Pylance, [source](https://marketplace.visualstudio.com/items?itemName=ms-python.python))
 - [Shift]+[Alt]+[F] Format document
 
 ### 12. Analyzing the Created Project
@@ -48,11 +48,9 @@ Notes for Windows 10 and PowerShell.
 ### 16. More Advanced Setup Steps
 
 - Virtual environments: https://docs.python.org/3/tutorial/venv.html
-- .vscode/settings.json file
-
-		{
-		"python.languageServer": "Pylance",
-		}
+- In `.vscode/settings.json` file, the string `{ "python.languageServer": "Pylance" }` could be inserted.
+  See [marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance).
+  Probably, this is optional.
 
 ### 17. Useful Resources & Links
 

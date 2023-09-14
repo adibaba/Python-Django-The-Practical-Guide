@@ -13,13 +13,11 @@
 - Command Palette (Ctrl+Shift+P) 'Python: Select Interpreter'
 - Command Palette (Ctrl+Shift+P) 'Preferences: Open Workspace Settings (JSON)'  
   (Creates settings.json file)
-
-		{
-		"python.languageServer": "Pylance",
-		}
-
+	-  Probably optional:`{ "python.languageServer": "Pylance" }`
 
 ### 20. What are URLs & Views?
+
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/urls-views-zz-extra-files/slides/slides.pdf)
 
 ### 21. Creating a First View & URL
 

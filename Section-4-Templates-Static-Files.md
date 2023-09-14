@@ -39,8 +39,18 @@
 
 ### 38. The Django Visual Studio Code Extension
 
-- https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django  
-  Note: Some HTML autocompletion did not work after installation.
+- https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django
+- `.vscode/settings.json` (source: video lecture 54 1:47)
+		
+		{
+		    "emmet.includeLanguages": {
+		        "django-html": "html"
+		    },
+		    "files.associations": {
+		        "**/*.html": "html",
+		        "**/templates/**/*.html": "django-html"
+		    }
+		}
 
 ### 39. Tags & the "for" Tag
 

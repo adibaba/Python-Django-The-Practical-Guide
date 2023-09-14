@@ -3,9 +3,9 @@
 This repository contains personal learning resources related to the course *Django - The Practical Guide* by Maximilian Schwarzmüller.
 Features of this repository are:
 
-- Course notes for single lectures
+- Course notes for single lectures (mostly links to the Django documentation)
+- Links to related code repositories and slides
 - Links to code changes between single lectures (really helpful!)
-- Links to related code repositories, slides and the Django documentation
 
 ## Course notes
 
@@ -18,7 +18,7 @@ Features of this repository are:
 - [Section 6: Data & Models](Section-6-Data-Models.md)
 - [Section overview](Sections.md)
 
-## Learning resources
+## Additional resources
 
 - Django Documentation
 	- [Django documentation contents](https://docs.djangoproject.com/en/4.2/contents/)
