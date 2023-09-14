@@ -2,6 +2,14 @@
 
 ## Summary
 
+Docs:
+
+- https://docs.djangoproject.com/en/4.2/intro/tutorial01/
+- https://docs.djangoproject.com/en/4.2/ref/request-response/
+- https://docs.djangoproject.com/en/4.2/topics/http/urls/
+- https://docs.djangoproject.com/en/4.2/ref/urlresolvers/
+- https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals
+	
 ### Hello world
 
 [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e937b..cbe01bf) and
