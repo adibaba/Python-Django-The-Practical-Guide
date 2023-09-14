@@ -23,24 +23,23 @@
 
 - `python manage.py runserver`
 - [http://localhost:8000/challenges/january](http://localhost:8000/challenges/january)
+- https://docs.djangoproject.com/en/4.2/intro/tutorial01/#creating-the-polls-app
+- https://docs.djangoproject.com/en/4.2/ref/request-response/#httpresponse-objects
 
 ### 22. Adding More Views & URLs
 
-- [Changes](https://github.com/adibaba/django-practical-guide-course-code/commit/15591afb65fb95372b6ce6c70e02c162d9428b19) and
-  [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-01-adding-a-first-url-and-view)
-  for urls-views-01-adding-a-first-url-and-view
-
 ### 23. Dynamic Path Segments & Captured Values
 
-- [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/15591af..bb13fa8) and
-  [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-02-dynamic-path-segments)
+- [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-02-dynamic-path-segments)
   for urls-views-02-dynamic-path-segments
+- https://docs.djangoproject.com/en/4.2/ref/request-response/#django.http.HttpResponseNotFound
 
 ### 24. Path Converters
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/bb13fa8..8a353a6) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-03-exploring-path-converters)
   for urls-views-03-exploring-path-converters
+- https://docs.djangoproject.com/en/4.2/topics/http/urls/#path-converters
 
 ### 25. Adding More Dynamic View Logic
 
@@ -49,19 +48,22 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/8a353a6..eeaa22d) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-04-redirecting)
   for urls-views-04-redirecting
+- https://docs.djangoproject.com/en/4.2/ref/request-response/#django.http.HttpResponseRedirect
 
 ### 27. The Reverse Function & Named URLs
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/eeaa22d..e423b06) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-05-the-reverse-function)
   for urls-views-05-the-reverse-function
-- https://docs.djangoproject.com/en/4.2/ref/urlresolvers/
+- https://docs.djangoproject.com/en/4.2/ref/urlresolvers/#reverse
 
 ### 28. Returning HTML
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/e423b06..11c7c77) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-06-returning-html-response)
   for urls-views-06-returning-html-response
+- String interpolation / formatted string literals / f-strings  
+  https://docs.python.org/3/tutorial/inputoutput.html#tut-f-strings
 
 ### 29. Practicing URLs, Views & Dynamic View Logic
 
