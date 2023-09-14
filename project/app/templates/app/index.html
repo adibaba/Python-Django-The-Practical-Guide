@@ -1,7 +1,12 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}
   {{ title }}
+{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="{% static 'app/style.css' %}" />
 {% endblock %}
 
 {% block content %}
