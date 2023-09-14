@@ -26,7 +26,7 @@ git push --set-upstream origin $BRANCH
 
 #### .gitignore
 
-- [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/blob/c213c873f80a0ee6e2aa99bed698c3eaeab61809/.gitignore)
+- [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/blob/19b4ddb61ee83a6f36b7d285f6a7b4ae813eecd2/.gitignore)
 - [A collection of .gitignore templates](https://github.com/github/gitignore)
   - [VisualStudioCode](https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore)
   - [Python](https://github.com/github/gitignore/blob/main/Python.gitignore)
@@ -62,3 +62,11 @@ git push
 
 [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/commit/4916ace266c6d419d675087b303e075d42d81195) and
   [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/4916ace266c6d419d675087b303e075d42d81195)
+
+
+#### Visual Studio Code: Format HTML Settings
+
+- [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/commit/b1e1a5e7ac38a107f78117b99c6651c338f9eed5)
+- Show all commands: [Ctrl] + [Shift] + [P]
+	- *Preferences: Open Workspace Settings (JSON)* creates `.vscode/settings.json`
+- Format document: [Shift] + [Alt] + [F]
