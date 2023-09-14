@@ -5,5 +5,8 @@
     "files.associations": {
         "**/*.html": "html",
         "**/templates/**/*.html": "django-html"
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
 }
