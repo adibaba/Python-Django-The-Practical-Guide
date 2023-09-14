@@ -13,6 +13,9 @@ for line in open('003-hashes.txt', 'r').readlines():
         continue
     if line.startswith('remotes/origin/HEAD'):
         continue
+
+    if '-01-' in line:
+        print()
         
     is_remote = True
         
