@@ -1,5 +1,36 @@
 # Section 2: Course Setup
 
+## Summary
+
+- Create project: `python -m django startproject project`
+	- Creates [files](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/ef77ebb6c74a59607012b426345381a8e51e2836)
+- Create app: `python manage.py startapp app`
+	- Creates [new files](https://github.com/adibaba/Python-Django-The-Practical-Guide/commit/4916ace266c6d419d675087b303e075d42d81195), resulting in [all files](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/4916ace266c6d419d675087b303e075d42d81195)
+- Run server: `python manage.py runserver`
+	- Starts server at [127.0.0.1:8000](http://127.0.0.1:8000/)
+- IDE: [Visual Studio Code](https://code.visualstudio.com)
+	- Install extensions *Python* (installs *Pylance*) and *Django*
+	- Show all commands: [Ctrl] + [Shift] + [P]
+		- *Preferences: Open Workspace Settings (JSON)* creates `.vscode/settings.json`
+	- Format document: [Shift] + [Alt] + [F]
+- Additional: Create a [.gitignore](https://github.com/adibaba/Python-Django-The-Practical-Guide/blob/section-2-code/.gitignore) file
+- Docs:
+	- https://docs.djangoproject.com/en/4.2/ref/django-admin/
+
+### Visual Studio Code: `.vscode/settings.json`
+
+```json
+{
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html"
+    }
+}
+```
+
 ## Lectures
 
 ### 8. Module Introduction
