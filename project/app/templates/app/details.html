@@ -12,10 +12,8 @@
 {% block content %}
   {{ content }}
   <ul>
-    {% for bookmark in bookmarks %}
-      <li>
-        <a href="details/{{ bookmark.id }}">{{ bookmark }}</a>
-      </li>
-    {% endfor %}
+    <li>ID: {{ bookmark_id }}</li>
+    <li>Title: {{ bookmark_title }}</li>
+    <li>URL: <a href="{{ bookmark_url }}" target="_blank">{{ bookmark_url }}</a></li>
   </ul>
 {% endblock %}
