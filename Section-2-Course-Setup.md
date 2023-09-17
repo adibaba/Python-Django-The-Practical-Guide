@@ -73,6 +73,7 @@ Notes for Windows 10 and PowerShell.
 
 ### 15. Analyzing the Created Project
 
+- https://docs.djangoproject.com/en/4.2/intro/reusable-apps/#your-project-and-your-reusable-app
 - apps.py: e.g. name
 - views.py: Important
 

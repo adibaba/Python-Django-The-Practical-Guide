@@ -1,5 +1,15 @@
 # Section 1: Getting Started
 
+## Summary
+
+- [Django documentation contents](https://docs.djangoproject.com/en/4.2/contents/)
+- [Getting started](https://docs.djangoproject.com/en/4.2/intro/)
+- [Topics](https://docs.djangoproject.com/en/4.2/topics/)
+  & [How to](https://docs.djangoproject.com/en/4.2/howto/)
+- [API Reference](https://docs.djangoproject.com/en/4.2/ref/)
+  & [General Index](https://docs.djangoproject.com/en/4.2/genindex/)
+  & [Module Index](https://docs.djangoproject.com/en/4.2/py-modindex/)
+
 ## Lectures
 
 ### 1. Introduction

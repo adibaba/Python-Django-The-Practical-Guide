@@ -16,13 +16,14 @@ Features of this repository are:
 - [Section 4: Templates & Static Files](Section-4-Templates-Static-Files.md)
 - [Section 5: Course Project: Building a Blog - The Basics](Section-5-Course-Project-Building-a-Blog-The-Basics.md)
 - [Section 6: Data & Models](Section-6-Data-Models.md)
+- [Section 7: Admin](Section-7-Admin.md)
+- [Section 8: Relationships](Section-8-Relationships.md)
 - [Section overview](Sections.md)
 
 ## Additional resources
 
-- Django Documentation
-	- [Django documentation contents](https://docs.djangoproject.com/en/4.2/contents/)
-	- [API Reference](https://docs.djangoproject.com/en/4.2/ref/)
+- Django
+	- [Django documentation](https://docs.djangoproject.com/)
 - Code on GitHub
 	- [Related code repository with slides from course](https://github.com/adibaba/django-practical-guide-course-code) (forked from [academind](https://github.com/academind/django-practical-guide-course-code))
 	- [Branches of the related code repository](https://github.com/adibaba/django-practical-guide-course-code/branches/all)
