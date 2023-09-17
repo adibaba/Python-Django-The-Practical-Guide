@@ -132,20 +132,19 @@
 
 
   remotes/origin/setup-zz-extra-files
-
   remotes/origin/urls-views-zz-extra-files
   remotes/origin/templates-zz-extra-files
   remotes/origin/data-models-zz-extra-files
   remotes/origin/relationships-zz-extra-files
+  remotes/origin/prj-data-models-zz-extra-files
   remotes/origin/forms-zz-extra-files
-  remotes/origin/sessions-zz-extra-files
   remotes/origin/deployment-zz-extra-files
 
-  remotes/origin/prj-urls-views-templates-zz-extra-files
-  remotes/origin/prj-data-models-zz-extra-files
-  remotes/origin/prj-blog-uploads-sessions-zz-extra-files
-  remotes/origin/summary-zz-extra-files
 
 
-  remotes/origin/urls-views-01-adding-a-first-url-and-view
+  remotes/origin/prj-urls-views-templates-zz-extra-files#noSlides
+  remotes/origin/prj-blog-uploads-sessions-zz-extra-files#noSlides
+  remotes/origin/sessions-zz-extra-files#sameAs-forms-zz-extra-files
+  remotes/origin/summary-zz-extra-files#noSlides
+  remotes/origin/urls-views-01-adding-a-first-url-and-view#wrongCodeState
 

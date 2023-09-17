@@ -353,27 +353,12 @@ remotes/origin/data-models-zz-extra-files
 remotes/origin/relationships-zz-extra-files
 a8f4612a3be6b6348d57f9c6e6f804560747dfe6
 
-remotes/origin/forms-zz-extra-files
-1178ce700b913de3bcee1c556282c75eaf0da2eb
-
-remotes/origin/sessions-zz-extra-files
-1c95ebb385b828406c4f9136ae06b221a856a81e
-
-remotes/origin/deployment-zz-extra-files
-f8217310d5cb98da4ea47a728f9242680931ff5c
-
-remotes/origin/prj-urls-views-templates-zz-extra-files
-5e57efbdec04876cbd29984ca4ec1a456273c9a7
-
 remotes/origin/prj-data-models-zz-extra-files
 40c10943caa16241b6d11658344fdec6481795e6
 
-remotes/origin/prj-blog-uploads-sessions-zz-extra-files
-10efc4c01ad0fc3764e5c0193e30dae8ddbe357f
+remotes/origin/forms-zz-extra-files
+1178ce700b913de3bcee1c556282c75eaf0da2eb
 
-remotes/origin/summary-zz-extra-files
-bda4e7b4455e53c8396b11f0ccda5d04815011bb
-
-remotes/origin/urls-views-01-adding-a-first-url-and-view
-15591afb65fb95372b6ce6c70e02c162d9428b19
+remotes/origin/deployment-zz-extra-files
+f8217310d5cb98da4ea47a728f9242680931ff5c
 

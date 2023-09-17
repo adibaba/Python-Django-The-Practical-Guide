@@ -25,9 +25,7 @@ for line in open('003-hashes.txt', 'r').readlines():
     elif '-0' in line:
         last_block = False
 
-    if 'setup-zz-extra-files' in line \
-    or 'urls-views-zz-extra-files' in line \
-    or 'prj-urls-views-templates-zz-extra-files' in line:
+    if 'setup-zz-extra-files' in line:
         print('\n---\n')
         
     is_remote = True

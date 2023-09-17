@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# Windows: Use WSL (Windows-Subsystem for Linux)
+#          Use dos2unix to convert script and input file
+#
 # https://stackoverflow.com/a/15679298
 #filein="002-branches.txt"
 filein="002-branches-manually-sorted.txt"
