@@ -1,1 +1,0 @@
-git branch -a > ../002-branches.txt
