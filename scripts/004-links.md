@@ -17,6 +17,8 @@
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-07-practicing-urls-and-views)
   for urls-views-07-practicing-urls-and-views
 
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/b3a97ef..7f135f5) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/templates-01-adding-and-registering-templates)
   for templates-01-adding-and-registering-templates
@@ -57,6 +59,8 @@
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/templates-13-adding-css-styling)
   for templates-13-adding-css-styling
 
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/1ef4b0b..5a3a9f4) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/data-models-01-first-model-and-migration)
   for data-models-01-first-model-and-migration
@@ -79,6 +83,8 @@
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/data-models-07-aggregation-and-ordering)
   for data-models-07-aggregation-and-ordering
 
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/8b3bad4..9c4a0dd) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/admin-01-configuring-model-fields)
   for admin-01-configuring-model-fields
@@ -88,6 +94,8 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/52a5968..161c20d) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/admin-03-more-config-options)
   for admin-03-more-config-options
+
+---
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/161c20d..e99a3ca) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/relationships-01-adding-one-to-many)
@@ -104,10 +112,12 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/4db79c4..466868f) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/relationships-05-many-to-many)
   for relationships-05-many-to-many
+
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/466868f..1493eac) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-00-starting-setup)
   for forms-00-starting-setup
-
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/1493eac..dee2d59) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-01-adding-a-dummy-form)
   for forms-01-adding-a-dummy-form
@@ -154,6 +164,8 @@
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-15-finished)
   for forms-15-finished
 
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/1e12bd0..e467fc9) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/class-based-views-01-adding-templates)
   for class-based-views-01-adding-templates
@@ -175,10 +187,12 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/cd396dd..8096580) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/class-based-views-07-the-createview)
   for class-based-views-07-the-createview
+
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/8096580..2b0415d) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/file-upload-00-starting-setup)
   for file-upload-00-starting-setup
-
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/2b0415d..0e39713) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/file-upload-01-storing-uploaded-files-naive-approach)
   for file-upload-01-storing-uploaded-files-naive-approach
@@ -194,10 +208,12 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/f0ce8f0..91ceeb1) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/file-upload-05-serving-uploaded-files)
   for file-upload-05-serving-uploaded-files
+
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/91ceeb1..3987250) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/sessions-00-starting-setup)
   for sessions-00-starting-setup
-
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/3987250..30405e5) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/sessions-01-storing-data-in-sessions)
   for sessions-01-storing-data-in-sessions
@@ -207,6 +223,8 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/a99ea9c..6bf5276) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/sessions-03-safely-accessing-session-data)
   for sessions-03-safely-accessing-session-data
+
+---
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/6bf5276..334da0b) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/deployment-01-serving-static-files-with-django)
@@ -223,10 +241,12 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/652d96c..842391a) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/deployment-05-serving-static-files-and-uploads-via-s3)
   for deployment-05-serving-static-files-and-uploads-via-s3
+
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/842391a..eb4d56a) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-00-starting-setup)
   for prj-urls-views-templates-00-starting-setup
-
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/eb4d56a..5d0a0d3) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-01-adding-urls-and-views)
   for prj-urls-views-templates-01-adding-urls-and-views
@@ -255,6 +275,8 @@
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-09-adding-a-404-page)
   for prj-urls-views-templates-09-adding-a-404-page
 
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/db9f310..e8fe471) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-data-models-01-added-models-and-relations)
   for prj-data-models-01-added-models-and-relations
@@ -273,6 +295,8 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/84b3faf..3059207) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-data-models-06-using-author-and-tags-data)
   for prj-data-models-06-using-author-and-tags-data
+
+---
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/3059207..7a28e94) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-blog-uploads-sessions-01-serving-uploaded-files)
@@ -307,6 +331,8 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/6ccaa04..5d174f2) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-blog-uploads-sessions-11-finishing-the-read-later-feature)
   for prj-blog-uploads-sessions-11-finishing-the-read-later-feature
+
+---
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/5d174f2..691ac6f) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/summary-01-urls-and-views)
@@ -350,9 +376,15 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/538de94..09a4224) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/summary-14-finished)
   for summary-14-finished
+
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/09a4224..0348424) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/setup-zz-extra-files)
   for setup-zz-extra-files
+
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/0348424..b167740) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-zz-extra-files)
   for urls-views-zz-extra-files
@@ -374,6 +406,9 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/1c95ebb..f821731) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/deployment-zz-extra-files)
   for deployment-zz-extra-files
+
+---
+
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/f821731..5e57efb) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-zz-extra-files)
   for prj-urls-views-templates-zz-extra-files
@@ -386,6 +421,8 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/10efc4c..bda4e7b) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/summary-zz-extra-files)
   for summary-zz-extra-files
+
+---
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/bda4e7b..15591af) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/urls-views-01-adding-a-first-url-and-view)

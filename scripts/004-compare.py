@@ -3,10 +3,12 @@ url_prefix = 'https://github.com/adibaba/django-practical-guide-course-code/comp
 url_prefix_branch = 'https://github.com/adibaba/django-practical-guide-course-code/tree/'
 prefixlen = len('remotes/origin/')
 last_commit = ''
+last_block = False
 is_remote = False
 is_commit = False
 for line in open('003-hashes.txt', 'r').readlines():
     line = line.strip()
+    
     if len(line) < 1:
         continue
     if line.startswith('002-branches.txt'):
@@ -14,8 +16,19 @@ for line in open('003-hashes.txt', 'r').readlines():
     if line.startswith('remotes/origin/HEAD'):
         continue
 
-    if '-01-' in line:
-        print()
+    if '-00-' in line:
+        last_block = True
+        print('\n---\n')
+    elif '-01-' in line and not last_block:
+        last_block = False
+        print('\n---\n')
+    elif '-0' in line:
+        last_block = False
+
+    if 'setup-zz-extra-files' in line \
+    or 'urls-views-zz-extra-files' in line \
+    or 'prj-urls-views-templates-zz-extra-files' in line:
+        print('\n---\n')
         
     is_remote = True
         
