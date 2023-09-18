@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Bookmark, Author, Address
+from .models import Bookmark, Author, Address, Tag
 
 
 class BookmarkAdmin(admin.ModelAdmin):
@@ -9,3 +9,4 @@ class BookmarkAdmin(admin.ModelAdmin):
 admin.site.register(Bookmark, BookmarkAdmin)
 admin.site.register(Author)
 admin.site.register(Address)
+admin.site.register(Tag)
