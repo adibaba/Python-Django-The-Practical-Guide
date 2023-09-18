@@ -72,25 +72,71 @@ a.bookmarks.all()  # with related_name in model
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/relationships-03-adding-one-to-one)
   for relationships-03-adding-one-to-one
 
+```python
+class Author(models.Model):
+    address = models.OneToOneField(Address, on_delete=models.CASCADE, null=True)
+```
+
 ### 109. One-to-one Python Code
+
+```python
+from app.models import Author, Address, Bookmark
+addr1 = Address(city='Berlin')
+addr1.save()
+addr2 = Address(city='New York') 
+addr2.save()
+a = Author.objects.get(name='Adrian')
+a.address = addr1
+a.save()
+b = Author.objects.get(name='Benjamin')
+b.address = addr2
+b.save()
+b.address.city
+```
 
 ### 110. One-to-one & Admin Config
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/2d4332c..4db79c4) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/relationships-04-managing-one-to-one-in-admin)
-  for relationships-04-managing-one-to-one-in-admin
+  for relationships-04-managing-one-to-one-in-adminFF
+- https://docs.djangoproject.com/en/4.2/ref/models/options/#verbose-name-plural
 
 ### 111. Setting-up many-to-many
-
-### 112. Using many-to-many in Python
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/4db79c4..466868f) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/relationships-05-many-to-many)
   for relationships-05-many-to-many
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/relationships-zz-extra-files/slides/slides.pdf)
+
+### 112. Using many-to-many in Python
+
+```python
+from app.models import Tag, Bookmark
+t_g = Tag(name='german')
+t_g.save()
+t_e = Tag(name='english')
+t_e.save()
+
+Bookmark.objects.all()
+g = Bookmark.objects.get(title='Google')
+s = Bookmark(url='https://www.sap.com/germany', title='SAP') 
+s.save()
+
+g.tags.add(t_e)
+g.save()
+s.tags.add(t_g)
+s.tags.add(t_e) 
+s.save()
+s.tags.all()
+t_e.bookmark_set.all()  # '_set'
+```
 
 ### 113. Many-to-many in Admin
 
 ### 114. Circular Relations & Lazy Relations
+
+- Circular Relations & Lazy Relations
+- https://docs.djangoproject.com/en/4.2/ref/models/fields/#module-django.db.models.fields.related
 
 ### 115. Summary
 
