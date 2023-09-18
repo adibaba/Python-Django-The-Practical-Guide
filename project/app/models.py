@@ -5,7 +5,10 @@ class Address(models.Model):
     city = models.CharField(max_length=255)
 
     def __str__(self):
-        return f"{self.name}"
+        return f"{self.city}"
+
+    class Meta:
+        verbose_name_plural = 'Address Entries'
 
 
 class Author(models.Model):
