@@ -6,15 +6,59 @@
 
 ### 103. Understanding Relationship Types
 
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/relationships-zz-extra-files/slides/slides.pdf)
+
 ### 104. Adding a one-to-many Relation & Migrations
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/161c20d..e99a3ca) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/relationships-01-adding-one-to-many)
+- Bookmarks 1:1 relation: [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..83a8a84) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/section-8-code/project)
   for relationships-01-adding-one-to-many
+- https://docs.djangoproject.com/en/4.2/topics/db/models/#many-to-one-relationships
+- Swapping in models:  
+  `python manage.py shell`  
+  `from app.models import Bookmark`  
+  `Bookmark.objects.all().delete()`
 
 ### 105. Working with Relations in Python Code
 
+- Bookmarks 1:1 relation: [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/83a8a84..8d75e68) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/8d75e687385ad4bd228f73c05b5c0c6eee0c0221/project)
+  for relationships-01-adding-one-to-many
+
+```python
+from app.models import Bookmark, Author
+adrian = Author()
+adrian = Author(name='Adrian') 
+adrian.save()
+benjamin = Author(name='Benjamin')
+benjamin.save()
+Author.objects.all()[0].name
+
+b = Bookmark(url='https://google.com/', title='Google', author=adrian) 
+b.save()
+
+b = Bookmark.objects.get(title='Google') 
+b.author.name
+```
+
 ### 106. Cross Model Queries
+
+- https://docs.djangoproject.com/en/4.2/ref/models/querysets/#field-lookups
+- https://docs.djangoproject.com/en/4.2/ref/models/fields/#django.db.models.ForeignKey.related_name
+
+```python
+b_by_a = Bookmark.objects.all().filter(author__name='Adrian')  # access name with '__'
+Bookmark.objects.all().filter(author__name__contains='dri')
+
+a = Author.objects.get(name='Adrian')
+a.bookmark_set.all()  # '_set'
+
+from app.models import Bookmark, Author
+a = Author.objects.get(name='Adrian')
+a.bookmarks.all()  # with related_name in model
+```
 
 ### 107. Managing Relations in Admin
 
@@ -52,4 +96,5 @@
 
 ### 116. Useful Resources & Links
 
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/relationships-zz-extra-files/slides/slides.pdf)
 
