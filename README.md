@@ -18,6 +18,8 @@ Features of this repository are:
 - [Section 6: Data & Models](Section-6-Data-Models.md)
 - [Section 7: Admin](Section-7-Admin.md)
 - [Section 8: Relationships](Section-8-Relationships.md)
+- [# Section 9: Course Project - Building a Blog: Data & Models](Section-9-Course-Project-Building-a-Blog-Data-Models.md)
+- [Section 10: Forms](Section-10-Forms.md)
 - [Section overview](Sections.md)
 
 ## Additional resources
