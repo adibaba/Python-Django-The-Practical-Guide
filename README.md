@@ -20,6 +20,8 @@ Features of this repository are:
 - [Section 8: Relationships](Section-8-Relationships.md)
 - [Section 9: Course Project - Building a Blog: Data & Models](Section-9-Course-Project-Building-a-Blog-Data-Models.md)
 - [Section 10: Forms](Section-10-Forms.md)
+- [Section 11: Class Views](Section-11-Class-Views.md)
+- [Section 12: File Uploads](Section-12-File-Uploads.md)
 - [Section overview](Sections.md)
 
 ## Additional resources
