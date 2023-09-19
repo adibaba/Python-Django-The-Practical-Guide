@@ -52,11 +52,14 @@
 
 ### 139. Validation with Django Forms
 
+- https://docs.djangoproject.com/en/4.2/ref/forms/api/#django.forms.Form.is_valid
+
 ### 140. Customizing the Form Controls
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/34f3a1d..0bb1e21) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-06-customizing-the-form-controls)
   for forms-06-customizing-the-form-controls
+- https://docs.djangoproject.com/en/4.2/ref/forms/fields/
 
 ### 141. Customizing the Rendered HTML
 
@@ -75,6 +78,7 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/80bbf3f..443f0c3) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-09-adding-more-form-controls)
   for forms-09-adding-more-form-controls
+- https://docs.djangoproject.com/en/4.2/ref/forms/fields/
 
 ### 144. Storing Form Data in a Database
 
@@ -87,6 +91,7 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/be24683..e63e199) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-11-introducing-modelforms)
   for forms-11-introducing-modelforms
+- https://docs.djangoproject.com/en/4.2/topics/forms/modelforms/
 
 ### 146. Configuring the Modelform
 
@@ -105,17 +110,14 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/4f85485..efcadce) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-14-class-based-views)
   for forms-14-class-based-views
+- https://docs.djangoproject.com/en/4.2/topics/class-based-views/
 
 ### 149. Summary
-
-### 150. Useful Resources & Links
-
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/forms-zz-extra-files/slides/slides.pdf)
-
-
-
-
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/efcadce..1e12bd0) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-15-finished)
   for forms-15-finished
+
+### 150. Useful Resources & Links
+
+- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/forms-zz-extra-files/slides/slides.pdf)
