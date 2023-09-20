@@ -1,11 +1,15 @@
 from django.shortcuts import render, get_object_or_404
+from django.views.generic.base import TemplateView
 from .models import Bookmark
 
 
-def index(request):
-    return render(request, "app/index.html", {
-        'bookmarks': Bookmark.objects.all(),
-    })
+class IndexView(TemplateView):
+    template_name = 'app/index.html'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["bookmarks"] = Bookmark.objects.all()
+        return context
 
 
 def details(request, bookmark_id):
