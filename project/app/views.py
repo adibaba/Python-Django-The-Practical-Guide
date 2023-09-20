@@ -1,15 +1,12 @@
 from django.shortcuts import render, get_object_or_404
-from django.views.generic.base import TemplateView
+from django.views.generic.list import ListView
 from .models import Bookmark
 
 
-class IndexView(TemplateView):
+class IndexView(ListView):
     template_name = 'app/index.html'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        context["bookmarks"] = Bookmark.objects.all()
-        return context
+    model = Bookmark
+    context_object_name = "bookmarks"
 
 
 def details(request, bookmark_id):
