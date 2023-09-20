@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.views.generic.list import ListView
+from django.views.generic.detail import DetailView
 from .models import Bookmark
 
 
@@ -9,10 +10,6 @@ class IndexView(ListView):
     context_object_name = "bookmarks"
 
 
-def details(request, bookmark_id):
-    bookmark = get_object_or_404(Bookmark, id=bookmark_id)
-    return render(request, "app/details.html", {
-        'bookmark_id': bookmark.id,
-        'bookmark_title': bookmark.title,
-        'bookmark_url': bookmark.url,
-    })
+class BookmarkDetailView(DetailView):
+    template_name = 'app/details.html'
+    model = Bookmark
