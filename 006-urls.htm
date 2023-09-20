@@ -29,7 +29,8 @@ function go() {
 	var parts = title.split('/');
 		parts[0] = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
 	title = parts.join(' ➝ ');
-	title = title.replace('#', '');
+	title = title.replaceAll('#', ' ');
+	title = title.replaceAll('-', ' ');
 	title = 'Docs: ' + title;
 	document.getElementById('title').value = title;
 	
