@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>URLs</title>
+	<style>
+		input { width:66% }
+	</style>
+  </head>
+  <body>
+    <script>
+
+var first = true;
+
+function go() {
+	var value = document.getElementById('input').value;
+	
+	var url = value.match(/\bhttps?:\/\/\S+/gi)[0];
+	document.getElementById('url').value = url;
+	
+	
+	var title = url.replace('https://docs.djangoproject.com/en/4.2/', '');
+	title = title.replace('ref/', 'API Reference/');
+	title = title.replace('genindex/', 'General Index/');
+	title = title.replace('py-modindex/', 'Module Index/');
+	if(title.substr(-1) === '/') {
+        title = title.substr(0, title.length - 1);
+    }
+	var parts = title.split('/');
+		parts[0] = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+	title = parts.join(' ➝ ');
+	title = title.replace('#', '');
+	title = 'Docs: ' + title;
+	document.getElementById('title').value = title;
+	
+	
+	var link = '[' + title + '](' + url + ')';
+	document.getElementById('link').value = link;
+	
+	var html = '<a href="' + url + '">' + title + '</a>';
+	document.getElementById('html').value = html;
+	document.getElementById('htmllink').innerHTML = html;
+	
+	if(first) {
+		document.getElementById('link').select();
+		first = false;
+	}
+}
+
+function copy() {
+	var input = document.getElementById('link');
+	input.select();
+	navigator.clipboard.writeText(input.value);
+}
+
+</script>
+	
+    <input type="text" id="input" oninput="go()" autofocus>
+    <!-- <button onclick="go()">go</button> -->
+    <input type="text" id="url">
+    <input type="text" id="title">
+    <input type="text" id="html">
+    <input type="text" id="link">
+    <button onclick="copy()">copy</button>
+    <p id="htmllink"></p>
+
+  </body>
+</html>
