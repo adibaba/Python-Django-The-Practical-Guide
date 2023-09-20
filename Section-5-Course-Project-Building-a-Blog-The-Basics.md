@@ -27,9 +27,9 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/5d0a0d3..1a1d655) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-02-adding-first-templates)
   for prj-urls-views-templates-02-adding-first-templates
-- https://docs.djangoproject.com/en/4.2/topics/templates/
-- https://docs.djangoproject.com/en/4.2/ref/templates/language/
-- https://docs.djangoproject.com/en/4.2/ref/templates/language/#template-inheritance
+- [Docs: Topics ➝ templates](https://docs.djangoproject.com/en/4.2/topics/templates/)
+- [Docs: API Reference ➝ templates ➝ language](https://docs.djangoproject.com/en/4.2/ref/templates/language/)
+- [Docs: API Reference ➝ templates ➝ language ➝  template inheritance](https://docs.djangoproject.com/en/4.2/ref/templates/language/#template-inheritance)
 - Templates contain block elements with a name and enblock elements.
 - Templates can extend other templates by stating their filenames on top.
 - Views can use the render(request, template) method.
@@ -39,7 +39,7 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/1a1d655..48d03da) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-03-adding-template-content-and-static-files)
   for prj-urls-views-templates-03-adding-template-content-and-static-files
-- https://docs.djangoproject.com/en/4.2/howto/static-files/
+- [Docs: Howto ➝ static files](https://docs.djangoproject.com/en/4.2/howto/static-files/)
 - Use directories *templates* and *static*. Use sub-folders with names of the respective apps.
 - Use the same directories for global files, but without sub-folders.
 
@@ -56,9 +56,9 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/fb853a1..420a5f4) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-05-linking-the-pages)
   for prj-urls-views-templates-05-linking-the-pages
-- https://docs.djangoproject.com/en/4.2/ref/urls/#django.urls.path
-- https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#url
-- https://docs.djangoproject.com/en/4.2/ref/urlresolvers/#django.urls.reverse
+- [Docs: API Reference ➝ urls ➝  django.urls.path](https://docs.djangoproject.com/en/4.2/ref/urls/#django.urls.path)
+- [Docs: API Reference ➝ templates ➝ builtins ➝  url](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#url)
+- [Docs: API Reference ➝ urlresolvers ➝  django.urls.reverse](https://docs.djangoproject.com/en/4.2/ref/urlresolvers/#django.urls.reverse)
 
 ### 62. Adding the "Single Post" Page
 
@@ -74,14 +74,14 @@
 
 ### 64. Special Template Features & Syntax
 
-- https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#add
+- [Docs: API Reference ➝ templates ➝ builtins ➝  add](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#add)
 
 ### 65. Adding a Single Post Page
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/8703a3d..38436b7) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/prj-urls-views-templates-08-adding-a-single-post-page)
   for prj-urls-views-templates-08-adding-a-single-post-page
-- https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#date
+- [Docs: API Reference ➝ templates ➝ builtins ➝  date](https://docs.djangoproject.com/en/4.2/ref/templates/builtins/#date)
 
 ### 66. Adding a 404 Page
 

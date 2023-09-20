@@ -22,7 +22,8 @@ Features of this repository are:
 - [Section 10: Forms](Section-10-Forms.md)
 - [Section 11: Class Views](Section-11-Class-Views.md)
 - [Section 12: File Uploads](Section-12-File-Uploads.md)
-- [Section overview](Sections.md)
+- [Section Overview](Sections.md)
+- [Course Summary](Summary.md)
 
 ## Additional resources
 

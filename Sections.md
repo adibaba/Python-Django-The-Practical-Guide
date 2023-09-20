@@ -1,8 +1,3 @@
-
-
-
-
-
 Section 1: Getting Started
 
 1. Introduction
@@ -14,8 +9,6 @@ Section 1: Getting Started
 7. Choose Your Course Path!
 
 Section 2: Course Setup
-
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/setup-zz-extra-files/slides/slides.pdf)
 
 8. Module Introduction
 9. Installing Python & Django
@@ -29,8 +22,6 @@ Section 2: Course Setup
 17. Useful Resources & Links
 
 Section 3: URLs & Views
-
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/urls-views-zz-extra-files/slides/slides.pdf)
 
 18. Module Introduction
 19. Creating a New Project
@@ -48,8 +39,6 @@ Section 3: URLs & Views
 31. Useful Resources & Links
 
 Section 4: Templates & Static Files
-
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/templates-zz-extra-files/slides/slides.pdf)
 
 32. Module Introduction
 33. Adding & Registering Templates
@@ -93,8 +82,6 @@ Section 5: Course Project: Building a Blog - The Basics
 
 Section 6: Data & Models
 
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/data-models-zz-extra-files/slides/slides.pdf)
-
 68. Module Introduction
 69. Different Kinds of Data
 70. Understanding Database Options
@@ -135,8 +122,6 @@ Section 7: Admin
 
 Section 8: Relationships
 
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/relationships-zz-extra-files/slides/slides.pdf)
-
 102. Module Introduction
 103. Understanding Relationship Types
 104. Adding a one-to-many Relation & Migrations
@@ -155,8 +140,6 @@ Section 8: Relationships
 
 Section 9: Course Project - Building a Blog: Data & Models
 
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/prj-data-models-zz-extra-files/slides/slides.pdf)
-
 117. Module Introduction
 118. Planning the Data Models
 119. Adding a Post Model
@@ -173,8 +156,6 @@ Section 9: Course Project - Building a Blog: Data & Models
 130. Useful Resources & Links
 
 Section 10: Forms
-
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/forms-zz-extra-files/slides/slides.pdf)
 
 131. Module Introduction
 132. Starting Setup
@@ -261,8 +242,6 @@ Section 14: Course Project: Building a Blog - Forms, Files & Sessions
 201. Useful Resources & Links
 
 Section 15: Deployment
-
-- [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/deployment-zz-extra-files/slides/slides.pdf)
 
 202. Module Introduction
 203. Deployment Considerations
