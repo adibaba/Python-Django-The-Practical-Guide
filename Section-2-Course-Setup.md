@@ -1,36 +1,5 @@
 # Section 2: Course Setup
 
-## Summary
-
-- Create project: `python -m django startproject project`
-	- Creates [files](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/ef77ebb6c74a59607012b426345381a8e51e2836)
-- Create app: `python manage.py startapp app`
-	- Creates [new files](https://github.com/adibaba/Python-Django-The-Practical-Guide/commit/4916ace266c6d419d675087b303e075d42d81195), resulting in [all files](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/4916ace266c6d419d675087b303e075d42d81195)
-- Run server: `python manage.py runserver`
-	- Starts server at [127.0.0.1:8000](http://127.0.0.1:8000/)
-- IDE: [Visual Studio Code](https://code.visualstudio.com)
-	- Install extensions *Python* (installs *Pylance*) and *Django*
-	- Show all commands: [Ctrl] + [Shift] + [P]
-		- *Preferences: Open Workspace Settings (JSON)* creates `.vscode/settings.json`
-	- Format document: [Shift] + [Alt] + [F]
-- Additional: Create a [.gitignore](https://github.com/adibaba/Python-Django-The-Practical-Guide/blob/section-2-code/.gitignore) file
-- Docs:
-	- https://docs.djangoproject.com/en/4.2/ref/django-admin/
-
-### Visual Studio Code: `.vscode/settings.json`
-
-```json
-{
-    "emmet.includeLanguages": {
-        "django-html": "html"
-    },
-    "files.associations": {
-        "**/*.html": "html",
-        "**/templates/**/*.html": "django-html"
-    }
-}
-```
-
 ## Lectures
 
 ### 8. Module Introduction
@@ -87,3 +56,36 @@ Notes for Windows 10 and PowerShell.
 ### 17. Useful Resources & Links
 
 - [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/setup-zz-extra-files/slides/slides.pdf)
+
+## Summary
+
+- Create project: `python -m django startproject project`
+	- Creates [files](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/ef77ebb6c74a59607012b426345381a8e51e2836)
+- Create app: `python manage.py startapp app`
+	- Creates [new files](https://github.com/adibaba/Python-Django-The-Practical-Guide/commit/4916ace266c6d419d675087b303e075d42d81195), resulting in [all files](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/4916ace266c6d419d675087b303e075d42d81195)
+- Run server: `python manage.py runserver`
+	- Starts server at [127.0.0.1:8000](http://127.0.0.1:8000/)
+- IDE: [Visual Studio Code](https://code.visualstudio.com)
+	- Install extensions *Python* (installs *Pylance*) and *Django*
+	- Show all commands: [Ctrl] + [Shift] + [P]
+		- *Preferences: Open Workspace Settings (JSON)* creates `.vscode/settings.json`
+	- Format document: [Shift] + [Alt] + [F]
+- Additional: Create a [.gitignore](https://github.com/adibaba/Python-Django-The-Practical-Guide/blob/section-2-code/.gitignore) file
+- [Example code *new app*](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/00e937b3ecdcb3c6164176cd710f7ca0373427aa) with new project, app, gitignore and vscode settings.
+- Docs:
+	- [Docs: API Reference ➝ django admin](https://docs.djangoproject.com/en/4.2/ref/django-admin/)  
+	  manage.py
+
+### Visual Studio Code: `.vscode/settings.json`
+
+```json
+{
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html"
+    }
+}
+```
