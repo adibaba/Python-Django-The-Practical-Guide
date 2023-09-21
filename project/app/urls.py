@@ -4,5 +4,5 @@ from . import views
 urlpatterns = [
     path('', views.IndexView.as_view(), name='index'),
     path('details/<int:pk>', views.BookmarkDetailView.as_view(), name='details'),
-    path('create', views.BookmarkFormlView.as_view(), name='form'),
+    path('create', views.BookmarkCreateView.as_view(), name='form'),
 ]

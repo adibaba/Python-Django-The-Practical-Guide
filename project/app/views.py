@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
-from django.views.generic.edit import FormView
+from django.views.generic.edit import FormView, CreateView
 from .models import Bookmark
 from .forms import BookmarkForm
 from django.http import HttpResponseRedirect
@@ -15,6 +15,13 @@ class IndexView(ListView):
 
 class BookmarkDetailView(DetailView):
     template_name = 'app/details.html'
+    model = Bookmark
+
+
+class BookmarkCreateView(CreateView):
+    form_class = BookmarkForm
+    template_name = 'app/form.html'
+    success_url = '/'
     model = Bookmark
 
 
