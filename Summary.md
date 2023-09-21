@@ -136,3 +136,23 @@ def echo(request, string):
 	- [Docs: Topics ➝ http ➝ shortcuts](https://docs.djangoproject.com/en/4.2/topics/http/shortcuts/)
 	- [Docs: Howto ➝ static files](https://docs.djangoproject.com/en/4.2/howto/static-files/)
 	- [Docs: API Reference ➝ views ➝  the 404 page not found view](https://docs.djangoproject.com/en/4.2/ref/views/#the-404-page-not-found-view)
+
+## Section 10: Forms
+
+- [Docs: Topics ➝ forms](https://docs.djangoproject.com/en/4.2/topics/forms/)
+- [Docs: API Reference ➝ forms](https://docs.djangoproject.com/en/4.2/ref/forms/)
+- Example code *form fields*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..3b0974f) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/3b0974f/project/app)
+- Example code *form class*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..1a249d9) and
+  [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/3b0974f..1a249d9) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/1a249d9/project/app)
+- Example code *modelform*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..6bb1554) and
+  [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/1a249d9..6bb1554) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/6bb1554/project/app)
+- Example code *class based view*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..5d8b284) and
+  [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/6bb1554..5d8b284) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/5d8b284/project/app)

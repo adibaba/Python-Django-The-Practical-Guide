@@ -4,8 +4,8 @@
 
 ### 131. Module Introduction
 
-- https://docs.djangoproject.com/en/4.2/topics/forms/
-- https://docs.djangoproject.com/en/4.2/ref/forms/
+- [Docs: Topics ➝ forms](https://docs.djangoproject.com/en/4.2/topics/forms/)
+- [Docs: API Reference ➝ forms](https://docs.djangoproject.com/en/4.2/ref/forms/)
 
 ### 132. Starting Setup
 
@@ -27,14 +27,14 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/dee2d59..992bbfc) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-02-csrf-protection)
   for forms-02-csrf-protection
-- https://docs.djangoproject.com/en/4.2/howto/csrf/
+- [Docs: Howto ➝ csrf](https://docs.djangoproject.com/en/4.2/howto/csrf/)
 
 ### 136. Handling Form Submission & Extracting Data
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/992bbfc..c88af56) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-03-handling-form-submission)
   for forms-03-handling-form-submission
-- https://docs.djangoproject.com/en/4.2/ref/request-response/#httprequest-objects
+- [Docs: API Reference ➝ request response ➝  httprequest objects](https://docs.djangoproject.com/en/4.2/ref/request-response/#httprequest-objects)
 
 ### 137. Manual Form Validation & the Problems with "that"
 
@@ -47,19 +47,19 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/2f739df..34f3a1d) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-05-using-the-django-form-class)
   for forms-05-using-the-django-form-class
-- https://docs.djangoproject.com/en/4.2/topics/forms/#building-a-form-in-django
-- https://docs.djangoproject.com/en/4.2/ref/forms/fields/
+- [Docs: Topics ➝ forms ➝  building a form in django](https://docs.djangoproject.com/en/4.2/topics/forms/#building-a-form-in-django)
+- [Docs: API Reference ➝ forms ➝ fields](https://docs.djangoproject.com/en/4.2/ref/forms/fields/)
 
 ### 139. Validation with Django Forms
 
-- https://docs.djangoproject.com/en/4.2/ref/forms/api/#django.forms.Form.is_valid
+- [Docs: API Reference ➝ forms ➝ api ➝  django.forms.Form.is_valid](https://docs.djangoproject.com/en/4.2/ref/forms/api/#django.forms.Form.is_valid)
 
 ### 140. Customizing the Form Controls
 
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/34f3a1d..0bb1e21) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-06-customizing-the-form-controls)
   for forms-06-customizing-the-form-controls
-- https://docs.djangoproject.com/en/4.2/ref/forms/fields/
+- [Docs: API Reference ➝ forms ➝ fields](https://docs.djangoproject.com/en/4.2/ref/forms/fields/)
 
 ### 141. Customizing the Rendered HTML
 
@@ -78,7 +78,7 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/80bbf3f..443f0c3) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-09-adding-more-form-controls)
   for forms-09-adding-more-form-controls
-- https://docs.djangoproject.com/en/4.2/ref/forms/fields/
+- [Docs: API Reference ➝ forms ➝ fields](https://docs.djangoproject.com/en/4.2/ref/forms/fields/)
 
 ### 144. Storing Form Data in a Database
 
@@ -91,7 +91,7 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/be24683..e63e199) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-11-introducing-modelforms)
   for forms-11-introducing-modelforms
-- https://docs.djangoproject.com/en/4.2/topics/forms/modelforms/
+- [Docs: Topics ➝ forms ➝ modelforms](https://docs.djangoproject.com/en/4.2/topics/forms/modelforms/)
 
 ### 146. Configuring the Modelform
 
@@ -110,7 +110,7 @@
 - [Changes](https://github.com/adibaba/django-practical-guide-course-code/compare/4f85485..efcadce) and
   [Code](https://github.com/adibaba/django-practical-guide-course-code/tree/forms-14-class-based-views)
   for forms-14-class-based-views
-- https://docs.djangoproject.com/en/4.2/topics/class-based-views/
+- [Docs: Topics ➝ class based views](https://docs.djangoproject.com/en/4.2/topics/class-based-views/)
 
 ### 149. Summary
 
@@ -121,3 +121,23 @@
 ### 150. Useful Resources & Links
 
 - [Slides](https://github.com/adibaba/django-practical-guide-course-code/blob/forms-zz-extra-files/slides/slides.pdf)
+
+## Summary
+
+- [Docs: Topics ➝ forms](https://docs.djangoproject.com/en/4.2/topics/forms/)
+- [Docs: API Reference ➝ forms](https://docs.djangoproject.com/en/4.2/ref/forms/)
+- Example code *form fields*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..3b0974f) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/3b0974f/project/app)
+- Example code *form class*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..1a249d9) and
+  [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/3b0974f..1a249d9) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/1a249d9/project/app)
+- Example code *modelform*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..6bb1554) and
+  [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/1a249d9..6bb1554) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/6bb1554/project/app)
+- Example code *class based view*:
+  [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..5d8b284) and
+  [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/6bb1554..5d8b284) and
+  [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/5d8b284/project/app)
