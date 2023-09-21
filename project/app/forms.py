@@ -1,6 +1,11 @@
 from django import forms
+from .models import Bookmark
 
 
-class BookmarkForm(forms.Form):
-    url = forms.CharField(max_length=255, label="URL")
-    title = forms.CharField(max_length=255)
+class BookmarkForm(forms.ModelForm):
+    class Meta:
+        model = Bookmark
+        fields = '__all__'
+        labels = {
+            "url": "URL",
+        }

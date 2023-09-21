@@ -26,8 +26,7 @@ def form(request: HttpRequest):
     if request.method == 'POST':
         form = BookmarkForm(request.POST)
         if form.is_valid():
-            Bookmark(url=form.cleaned_data['url'],
-                     title=form.cleaned_data['title']).save()
+            form.save()
             return HttpResponseRedirect("/")
         else:
             return render(request, "app/form.html", {
