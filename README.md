@@ -22,6 +22,11 @@ Features of this repository are:
 - [Section 10: Forms](Section-10-Forms.md)
 - [Section 11: Class Views](Section-11-Class-Views.md)
 - [Section 12: File Uploads](Section-12-File-Uploads.md)
+- [Section 13: Sessions](Section-13-Sessions.md)
+- [Section 14: Course Project: Building a Blog - Forms, Files & Sessions](Section-14-Course-Project-Building-a-Blog-Forms-Files-Sessions.md)
+- [Section 15: Deployment](Section-15-Deployment.md)
+- [Section 16: Optional: Django Summary & Quick Introduction](Section-16-Optional-Django-Summary-Quick-Introduction.md)
+- [Section 17: Bonus](Section-17-Bonus.md)
 - [Section Overview](Sections.md)
 - [Course Summary](Summary.md)
 
