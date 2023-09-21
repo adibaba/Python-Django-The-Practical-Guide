@@ -156,3 +156,26 @@ def echo(request, string):
   [Complete Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1b..5d8b284) and
   [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/6bb1554..5d8b284) and
   [Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/5d8b284/project/app)
+
+## Section 11: Class Views
+
+- TemplateView: Extend class to render a template.
+	- Example code *template view*: [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/00e2b1..82f71d5) and
+[Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/82f71d51eb2502124c3bcce3a26a5944ba47c0d4/project/app)
+	- [Docs: API Reference ➝ class based views ➝ base ➝  templateview](https://docs.djangoproject.com/en/4.2/ref/class-based-views/base/#templateview)
+- ListView: Just specify template, model and variable name of list.
+	- Example code *template view*: [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/82f71d5..2541797) and
+[Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/2541797a86aa5b3d361fecb2cc9b015d994c0f74/project/app)
+	- [Docs: API Reference ➝ class based views ➝ generic display ➝  listview](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-display/#listview)
+- DetailView: Render a single object.
+	- Example code *template view*: [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/2541797..798e1a7) and
+[Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/798e1a78b8bc8cf73f81eb6df4d15b3905504bf9/project/app)
+	- [Docs: API Reference ➝ class based views ➝ generic display ➝  detailview](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-display/#detailview) 
+- FormView: A view that displays a form. On error, redisplays the form with validation errors; on success, redirects to a new URL.
+	- Example code *form view*: [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/798e1a7..dfc7d03) and
+[Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/dfc7d03/project/app)
+	- [Docs: API Reference ➝ class based views ➝ generic editing ➝  formview](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/#formview)
+- CreateView: A view that displays a form for creating an object, redisplaying the form with validation errors (if there are any) and saving the object.
+	- Example code *form view*: [Changes](https://github.com/adibaba/Python-Django-The-Practical-Guide/compare/dfc7d03..dd3f94e) and
+[Code](https://github.com/adibaba/Python-Django-The-Practical-Guide/tree/dd3f94e/project/app)
+	- [Docs: API Reference ➝ class based views ➝ generic editing ➝  createview](https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/#createview)
