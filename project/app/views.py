@@ -4,6 +4,7 @@ from django.utils.safestring import mark_safe
 from django.http import HttpResponseRedirect, HttpRequest
 from .forms import BookmarkForm
 from .models import Bookmark
+from django.views import View
 
 
 def index(request):
@@ -22,8 +23,13 @@ def details(request, bookmark_id):
     })
 
 
-def form(request: HttpRequest):
-    if request.method == 'POST':
+class BookmarkFormView(View):
+    def get(self, request):
+        return render(request, "app/form.html", {
+            'form': BookmarkForm()
+        })
+
+    def post(self, request):
         form = BookmarkForm(request.POST)
         if form.is_valid():
             form.save()
@@ -32,7 +38,3 @@ def form(request: HttpRequest):
             return render(request, "app/form.html", {
                 'form': form
             })
-    else:
-        return render(request, "app/form.html", {
-            'form': BookmarkForm()
-        })
