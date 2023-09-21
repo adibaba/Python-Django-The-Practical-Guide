@@ -10,14 +10,10 @@
 {% endblock %}
 
 {% block content %}
-  <a href="/admin">Admin</a>
-  <a href="/create">Create</a>
   {{ content }}
-  <ul>
-    {% for bookmark in bookmarks %}
-      <li>
-        <a href="details/{{ bookmark.id }}">{{ bookmark }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  <form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <button>Send</button>
+  </form>
 {% endblock %}
