@@ -13,10 +13,7 @@
   {{ content }}
   <form method="POST" action="./">
     {% csrf_token %}
-    <label for="title">Title</label>
-    <input id="title" name="title" type="text" autofocus />
-    <label for="url">URL</label>
-    <input id="url" name="url" type="text" />
+    {{ form }}
     <button>Send</button>
   </form>
 {% endblock %}
