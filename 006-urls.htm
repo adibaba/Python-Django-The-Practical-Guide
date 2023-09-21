@@ -54,10 +54,21 @@ function copy() {
 	navigator.clipboard.writeText(input.value);
 }
 
+function reset() {
+	document.getElementById('input').value = '';
+	document.getElementById('url').value = '';
+	document.getElementById('title').value = '';
+	document.getElementById('html').value = '';
+	document.getElementById('link').value = '';
+	document.getElementById('htmllink').innerHTML = '';
+	document.getElementById('input').select();
+}
+
 </script>
 	
     <input type="text" id="input" oninput="go()" autofocus>
     <!-- <button onclick="go()">go</button> -->
+    <button onclick="reset()">reset</button>
     <input type="text" id="url">
     <input type="text" id="title">
     <input type="text" id="html">
