@@ -11,11 +11,12 @@
 
 {% block content %}
   {{ content }}
-  <form>
+  <form method="POST" action="./">
+    {% csrf_token %}
     <label for="title">Title</label>
-    <input id="title" name="title" type="text" autofocus>
+    <input id="title" name="title" type="text" autofocus />
     <label for="url">URL</label>
-    <input id="url" name="url" type="text">
+    <input id="url" name="url" type="text" />
     <button>Send</button>
   </form>
 {% endblock %}
