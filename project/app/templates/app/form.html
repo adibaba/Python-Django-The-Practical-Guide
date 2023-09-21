@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+  Bookmarks
+{% endblock %}
+
+{% block head %}
+  <link rel="stylesheet" href="{% static 'app/style.css' %}" />
+{% endblock %}
+
+{% block content %}
+  {{ content }}
+  <form>
+    <label for="title">Title</label>
+    <input id="title" name="title" type="text" autofocus>
+    <label for="url">URL</label>
+    <input id="url" name="url" type="text">
+    <button>Send</button>
+  </form>
+{% endblock %}
